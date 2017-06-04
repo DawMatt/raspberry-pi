@@ -25,3 +25,6 @@ ssh -Y pi@raspberrypi
 
 To test the connectivity run an X11 application and it should appear on your Mac systme. e.g. 
 xpdf
+
+Note: Error messages such as the following indicate your X11 server is not installed correctly or DISPLAY variable is not set correctly on the system initiating the connection:
+“connect /tmp/.X11-unix/X0: No such file or directory”?
