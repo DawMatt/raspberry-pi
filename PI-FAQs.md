@@ -14,7 +14,7 @@ Any VNC client should be able to remotely access the desktop, assuming the deskt
 
 3) How do you remotely access desktop applications from a macOS system?
 
-macOS no longer includes X11 by default. Use XQuartz ( https://www.xquartz.org/ ) to install an X Windows sub-system to allow your Pi's desktop applications to be installed.
+macOS no longer includes X11 by default and have moved this code to an open source project (reference; https://support.apple.com/en-au/HT201341 ). Use XQuartz ( https://www.xquartz.org/ ) to install an X Windows sub-system to allow your Pi's desktop applications to be installed.
 
 Once this has been enabled and you have logged out and back in, you need to set your DISPLAY environment variable appropriately on your Mac. e.g. 
 export DISPLAY=:0.0
