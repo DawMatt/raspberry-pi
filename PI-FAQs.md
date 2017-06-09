@@ -24,8 +24,10 @@ macOS no longer includes X11 by default and have moved this code to an open sour
 
 Once this has been enabled and you have logged out and back in, your DISPLAY environment variable will have been set appropriately on your Mac. e.g. 
 
-```echo $DISPLAY
-/private/tmp/com.apple.launchd.gP82zkeqBb/org.macosforge.xquartz:0```
+```
+echo $DISPLAY
+/private/tmp/com.apple.launchd.gP82zkeqBb/org.macosforge.xquartz:0
+```
 
 Use ssh with the -Y option to allow forwarding of X11 displays. e.g. 
 
