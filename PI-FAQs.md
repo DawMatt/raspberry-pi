@@ -33,7 +33,7 @@ Use ssh with the -Y option to allow forwarding of X11 displays. e.g.
 
 ```ssh -Y pi@raspberrypi```
 
-To test the connectivity run an X11 application and it should appear on your Mac systme. e.g. 
+To test the connectivity run an X11 application and it should appear on your Mac system. e.g. 
 
 ```xpdf```
 
